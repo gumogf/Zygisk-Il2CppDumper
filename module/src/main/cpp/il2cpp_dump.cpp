@@ -417,7 +417,7 @@ void il2cpp_dump(const char *outDir) {
         }
     }
     LOGI("write dump file");
-    auto outPath = "/storage/emulated/0/Download/system_config/";
+    auto outPath = "/storage/emulated/0/Download/balckboxdump/dump.cs";
     std::ofstream outStream(outPath);
     outStream << imageOutput.str();
     auto count = outPuts.size();
